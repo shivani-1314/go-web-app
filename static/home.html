@@ -4,54 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home | Maharashtrian Jewelry</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
         }
 
         header {
-            background-color: #333;
+            background-color: #8e44ad;
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
+            text-align: center;
         }
 
         nav ul li {
             display: inline;
-            margin-right: 10px;
+            margin-right: 20px;
         }
 
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
         }
 
         main {
-            padding: 20px;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
         }
 
         section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
         }
 
+        section h1, section h2 {
+            color: #8e44ad;
+        }
+
         footer {
-            background-color: #333;
+            background-color: #8e44ad;
             color: #fff;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
         }
-    </style>    
+
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .jewelry-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #8e44ad;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .jewelry-link:hover {
+            background-color: #732d91;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -60,32 +99,30 @@
                 <li><a href="home">Home</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="contact">Contact</a></li>
-                <li><a href="courses">Courses</a></li>
+                <li><a href="collection">Collection</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h1>Learn DevOps from Basics</h1>
-            <p>The main purpose of this website is to guide people on how to learn DevOps 
-                from basics for Free. We will provide you with the best resources to learn.
-            </p>
+            <h1>Welcome to Maharashtrian Jewelry</h1>
+            <p>Discover the exquisite beauty and cultural heritage of Maharashtra through our curated collection of traditional and contemporary jewelry. From the intricate designs of <span class="highlight">Nath</span> and <span class="highlight">Chooda</span> to the elegance of <span class="highlight">Mangalsutra</span>, we offer pieces that suit every occasion and taste.</p>
         </section>
 
         <section>
-            <h2>Overview</h2>
-            <p> Zero to Hero courses on all DevOps tools and popular Cloud(AWS and Azure) platform</p>
+            <h2>Our Promise</h2>
+            <p>At Maharashtrian Jewelry, we are dedicated to providing you with high-quality, authentic pieces that celebrate the rich traditions of Maharashtra. Our jewelry is crafted with care and precision, ensuring that every piece is a work of art.</p>
         </section>
 
         <section>
-            <h2>Courses Offered</h2>
-            <p>Please look at the <a href="courses">courses</a> section.</p>  
+            <h2>Explore Our Collection</h2>
+            <p>Browse through our exclusive collections and find the perfect piece to complement your style. Visit our <a href="collection" class="jewelry-link">Collection</a> page to see more.</p>  
         </section>
     </main>
 
     <footer>
-        <p>&copy; Abhishek.Veeramalla</p>
+        <p>&copy; 2024 Sangeeta Patwa's Maharashtrian Jewelry</p>
     </footer>
 </body>
 </html>
