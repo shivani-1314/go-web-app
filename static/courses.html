@@ -1,52 +1,84 @@
-<DocType html>
-
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Learn DevOps from Basics</title>
+        <title>Explore Maharashtrian Jewelry</title>
         <style>
             body {
                 margin: 0;
                 padding: 0;
+                font-family: Arial, sans-serif;
+                color: #333;
+                background-color: #f9f9f9;
             }
 
             header {
-                background-color: #333;
+                background-color: #8e44ad;
                 color: #fff;
-                padding: 10px 0;
+                padding: 15px 0;
                 text-align: center;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             }
 
             nav ul {
                 list-style-type: none;
                 padding: 0;
+                margin: 0;
             }
 
             nav ul li {
                 display: inline;
-                margin-right: 10px;
+                margin-right: 15px;
             }
 
             nav ul li a {
                 color: #fff;
                 text-decoration: none;
+                font-weight: bold;
             }
 
             main {
-                padding: 20px;
+                padding: 40px 20px;
+                max-width: 800px;
+                margin: auto;
             }
 
             section {
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 margin-bottom: 20px;
             }
 
+            section h1 {
+                color: #8e44ad;
+            }
+
             footer {
-                background-color: #333;
+                background-color: #8e44ad;
                 color: #fff;
                 text-align: center;
                 padding: 10px 0;
                 position: fixed;
                 bottom: 0;
                 width: 100%;
+                box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            .jewelry-link {
+                display: inline-block;
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: #8e44ad;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                transition: background-color 0.3s ease;
+            }
+
+            .jewelry-link:hover {
+                background-color: #732d91;
             }
         </style>
     </head>
@@ -57,36 +89,36 @@
                     <li><a href="home">Home</a></li>
                     <li><a href="about">About</a></li>
                     <li><a href="contact">Contact</a></li>
-                    <li><a href="courses">Courses</a></li>
+                    <li><a href="collection">Collection</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <section>
-                <h1>Learn DevOps from Basics</h1>
-                <p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops)</p>
-                <p>It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development; several DevOps aspects came from Agile methodology</p>    
+                <h1>Explore Maharashtrian Jewelry</h1>
+                <p>Discover the exquisite beauty of Maharashtrian jewelry with our curated collection.</p>
+                <p>Our jewelry reflects the rich cultural heritage of Maharashtra, blending traditional craftsmanship with contemporary designs.</p>
+                <p>Whether you're looking for timeless classics or modern interpretations, we have something to suit every taste and occasion.</p>
 
-                <h2>Main Tutorials</h2>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvIKMhk8WhzN1pYoJ1YU8Csa">DevOps Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze">AWS Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvIcxgCUyBHVOcWs0Krjx9xR">Azure Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvI0O4PeKVV1-yJoX2AqIWuf">Terraform Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvKwTyYNJCUwGPvql0TrsPgv">Python Zero to Hero</a></p>
+                <h2>Featured Collections</h2>
+                <p><a href="collection.html#nath" class="jewelry-link">Nath Collection</a></p>
+                <p><a href="collection.html#chooda" class="jewelry-link">Chooda Collection</a></p>
+                <p><a href="collection.html#mangalsutra" class="jewelry-link">Mangalsutra Collection</a></p>
+                <p><a href="collection.html#modern" class="jewelry-link">Modern Designs</a></p>
 
-                <h2>Additional Tutorials</h2>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvKv4MFW35XRskZbQbrt6ep-">Networking Fundamentals</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvLxd5nmtmORCmhD5jkrNbuE">Ansible Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvKu7OZpgj1-MzJFqZ8RBp6f">GitOps Zero to Hero</a></p>
+                <h2>Special Offers</h2>
+                <p>Stay tuned for exclusive discounts and special offers. Follow us on social media to get the latest updates.</p>
+                <a href="https://www.instagram.com/maharashtrianjewelry" class="jewelry-link">Follow us on Instagram</a>
 
-                <h2>Troubleshooting Tutorials</h2>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvIrFBI1farpLS_OSUBXJMLX">Troubleshooting Kubernetes</a></p>
+                <h2>Contact Us</h2>
+                <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+                <a href="contact.html" class="jewelry-link">Contact Us</a>
             </section>
         </main>
 
         <footer>
-            <p>&copy; Abhishek.Veeramalla</p>
+            <p>&copy; 2024 Sangeeta Patwa's Maharashtrian Jewelry</p>
         </footer>
     </body>
 </html>
