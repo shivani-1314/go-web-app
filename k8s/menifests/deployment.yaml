@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jwel-web-app
+  labels:
+    app: jwel-web-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jwel-web-app
+  template:
+    metadata:
+      labels:
+        app: jwel-web-app
+    spec:
+      containers:
+      - name: jwel-web-app
+        image: shivanipatwa/jwel-web-app:v1
+        ports:
+        - containerPort: 8080
