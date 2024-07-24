@@ -20,6 +20,6 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 
-eksctl create cluster --name demo-cluster --region us-east-1 
+eksctl create cluster --node-type=t3.medium --nodes=2 --name=shivicluster --region=us-east-2
 
-eksctl delete cluster --name demo-cluster --region us-east-1
+eksctl delete cluster --name shivicluster  --region us-east-2
