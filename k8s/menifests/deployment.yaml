@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: jwel-web-app
-        image: shivanipatwa/jwel-web-app
+        image: shivanipatwa/jwel-web-app:v1
         ports:
         - containerPort: 8080
