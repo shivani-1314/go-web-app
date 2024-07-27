@@ -8,7 +8,7 @@ image:
   repository: shivanipatwa/jwel-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "10122689872"
 
 ingress:
   enabled: false
