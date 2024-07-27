@@ -10,7 +10,7 @@ kubectl get svc argocd-server -n argocd
 
 ## Login to ArgoCD
 kubectl get secrets -n argocd 
-kubectl edit secret argocd-initial-admin-secret
+kubectl edit secret argocd-initial-admin-secret -n argocd
 Copy the password
 echo "passwd" | base64 -d 
 username will be "admin"
